@@ -1,0 +1,17 @@
+# Example: Exclude C++ files
+*.cpp linguist-vendored
+*.h linguist-vendored
+
+# Exclude CMake files
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+
+# Exclude Ruby/Swift/C files
+*.rb linguist-vendored
+*.swift linguist-vendored
+*.c linguist-vendored
+
+# Exclude entire directories (e.g., build/)
+build/ linguist-vendored
+ios/ linguist-vendored
+android/ linguist-vendored
